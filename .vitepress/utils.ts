@@ -55,6 +55,10 @@ export async function getSidebarItems() {
 			link: '/home',
 		},
 		{
+			text: 'Quick references',
+			items: await getPagesInDirectory('quick-ref') ?? []
+		},
+		{
 			text: 'Basic syntax',
 			items: await getPagesInDirectory('syntax') ?? []
 		},
