@@ -1,4 +1,7 @@
 import { defineConfig } from 'vitepress';
+// @ts-expect-error TS7016: Could not find a declaration file for module markdown-it-footnote.
+import footnote from 'markdown-it-footnote';
+import anchor from 'markdown-it-anchor';
 
 // https://vitepress.dev/reference/site-config
 export default () => {
@@ -17,6 +20,12 @@ export default () => {
 			],
 			search: {
 				provider: 'local'
+			}
+		},
+		markdown: {
+			config: (md) => {
+				md.use(footnote);
+				md.use(anchor);
 			}
 		}
 	});

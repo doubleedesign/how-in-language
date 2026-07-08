@@ -127,5 +127,26 @@
   --vp-custom-block-tip-text: var(--vp-c-text-1);
   --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
+  --vp-custom-block-font-size: 1rem;
 }
 
+/**
+ * Markdown: Footnotes
+ * -------------------------------------------------------------------------- */
+
+.vp-doc hr.footnotes-sep {
+  margin-top: 6rem;
+}
+
+.vp-doc .footnotes-list {
+
+  .footnote-item {
+    font-size: 0.875rem;
+    line-height: 1.4;
+    opacity: 0.8;
+
+    p {
+      line-height: inherit;
+    }
+  }
+}
