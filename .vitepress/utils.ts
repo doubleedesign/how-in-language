@@ -55,6 +55,10 @@ export async function getSidebarItems() {
 			link: '/home',
 		},
 		{
+			'text': 'Contributing',
+			link: '/contributing'
+		},
+		{
 			text: 'Quick references',
 			items: await getPagesInDirectory('quick-ref') ?? []
 		},

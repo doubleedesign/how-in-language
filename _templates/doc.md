@@ -1,4 +1,8 @@
-# I just want to store some key-value pairs, geez.
+---
+
+---
+
+# Page Title
 
 ## TypeScript
 
@@ -32,14 +36,12 @@ Nothing here yet. Please replace me with content for this language!
 
 ## PHP
 
-- For untyped key-value pairs, you want an [associative array](../collections/array.md).
-- For typed ones, you're gonna have to create a class with properties for all the keys you want.
+::: warning 404
+Nothing here yet. Please replace me with content for this language!
+:::
 
 ## Python
 
 ::: warning 404
 Nothing here yet. Please replace me with content for this language!
 :::
-
-
-
