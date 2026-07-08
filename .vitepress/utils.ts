@@ -71,8 +71,12 @@ export async function getSidebarItems() {
 			items: await getPagesInDirectory('primitives') ?? []
 		},
 		{
-			text: 'Collections',
+			text: 'Collection types',
 			items: await getPagesInDirectory('collections') ?? []
+		},
+		{
+			text: 'Looping through collections',
+			items: await getPagesInDirectory('looping') ?? []
 		},
 		{
 			text: 'Functions and methods',
